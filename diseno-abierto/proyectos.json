@@ -4,6 +4,9 @@
     "nombre": "placeholder",
     "estudiante": "placeholder",
     "texto": "placeholder placeholder placeholder",
+    "categorias": "textil/tejido/etc",
+    "disciplinar": "visual/interactivo/espacial/sonoro",
+    "materiales": "javascript/madera/algodon/papel/cortelaser/eucaliptus",
     "url": "https://raw.githubusercontent.com/disenoUDP/assets/main/diseno-abierto/proyectos/square/musikangu.jpg",
     "thumbnailUrl": "https://raw.githubusercontent.com/disenoUDP/assets/main/diseno-abierto/proyectos/thumbnail/musikangu.jpg"
   },
