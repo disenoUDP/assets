@@ -8,3 +8,7 @@ with open('test.csv', newline='') as csvfile:
     print(row['Timestamp'])
     print(row['Nombre del taller'])
     print(row['Nombre del proyecto'])
+    print(row['Nombres completos'])
+    print(row['Texto explicativo'])
+    print(row['Etiquetas'])
+    print(row['Imagenes'])
