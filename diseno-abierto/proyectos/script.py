@@ -19,10 +19,10 @@ with open('test.csv', newline='', encoding='utf-8') as csvfile:
     diccionario['timestamp'] = row['Timestamp']
     diccionario['sigla'] = row['Nombre del taller'].split(' ')[0]
     diccionario['nombre'] = row['Nombre del proyecto']
-    diccionario['estudiantes'] = row['Nombres completos'].split(',')
+    diccionario['estudiantes'] = row['Nombres completos'].split(', ')
     diccionario['texto'] = row['Texto explicativo']
-    diccionario['etiquetas'] = row['Etiquetas'].split(',')
-    # diccionario['Imagenes'] = row['Imagenes'].split(',')
+    diccionario['etiquetas'] = row['Etiquetas'].split(', ')
+    # diccionario['Imagenes'] = row['Imagenes'].split(', ')
     diccionario['url'] = 'https://placehold.co/400'
     diccionario['thumbnailURL'] = 'https://placehold.co/400'
 
