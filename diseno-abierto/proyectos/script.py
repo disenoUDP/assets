@@ -6,7 +6,7 @@ import json
 lista = []
 
 # leer archivo .csv
-with open('test.csv', newline='', encoding='utf-8') as csvfile:
+with open('nueva.csv', newline='', encoding='utf-8') as csvfile:
   # crear objeto lector en formato diccionario
   reader = csv.DictReader(csvfile)
 
